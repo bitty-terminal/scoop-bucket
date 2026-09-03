@@ -1,17 +1,17 @@
 {
-    "version": "0.0.18",
+    "version": "0.0.19",
     "description": "Bitty pre-alpha terminal workspace minimal correct terminal",
     "homepage": "https://github.com/bitty-terminal/bitty",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bitty-terminal/bitty/releases/download/v0.0.18/bitty-x86_64-pc-windows-msvc.exe",
-            "hash": "c021d41e7126a472c2304a6e177cf2e444215aeaf51e836ac5f9037d599f38b7",
+            "url": "https://github.com/bitty-terminal/bitty/releases/download/v0.0.19/bitty-x86_64-pc-windows-msvc.exe",
+            "hash": "21dcce340028abf1880c35f1be7c5fd70c9c153152aed00c1e55b12e759edf0e",
             "bin": "bitty-x86_64-pc-windows-msvc.exe"
         },
         "arm64": {
-            "url": "https://github.com/bitty-terminal/bitty/releases/download/v0.0.18/bitty-aarch64-pc-windows-msvc.exe",
-            "hash": "4c2e7f0911d13ae6e969cfc46fe7091ccfeba9bf24ec73d3fde91589ad839284",
+            "url": "https://github.com/bitty-terminal/bitty/releases/download/v0.0.19/bitty-aarch64-pc-windows-msvc.exe",
+            "hash": "001a1254911774992edf6e2da0253726d313e5a4932861f7b7b907b3757e2fe2",
             "bin": "bitty-aarch64-pc-windows-msvc.exe"
         }
     },
