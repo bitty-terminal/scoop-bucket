@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/bitty-terminal/bitty/releases/download/v0.0.23/bitty-x86_64-pc-windows-msvc.exe",
-            "hash": "f1f9d51b915bcb159a9d6ec5b5fc07d608fd6512399aae271b14b267f2e3b90b",
+            "hash": "823cb8e31ba1af5cf2eb2561b2ecd25850257e177c55a72f4032484d81036244",
             "bin": "bitty-x86_64-pc-windows-msvc.exe"
         },
         "arm64": {
             "url": "https://github.com/bitty-terminal/bitty/releases/download/v0.0.23/bitty-aarch64-pc-windows-msvc.exe",
-            "hash": "73e18bdbcf2bda22262b92c283df9c467524f3098a4b5d85aefd5df376e89c9b",
+            "hash": "e96a919bc45f901a766a0e793c4a891cc834128f1419941c6ad68d6fc9d94473",
             "bin": "bitty-aarch64-pc-windows-msvc.exe"
         }
     },
