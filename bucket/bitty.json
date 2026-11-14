@@ -1,19 +1,19 @@
 {
-    "version": "0.0.39",
+    "version": "0.0.41",
     "description": "Bitty pre-alpha terminal workspace minimal correct terminal",
     "homepage": "https://github.com/bitty-terminal/bitty",
     "license": "MIT OR Apache-2.0",
-    "notes": "Downloads use the R2-backed CDN (cdn.bitty.run). GitHub Releases fallback: https://github.com/bitty-terminal/bitty/releases/tag/v0.0.39",
+    "notes": "Downloads use the R2-backed CDN (cdn.bitty.run). GitHub Releases fallback: https://github.com/bitty-terminal/bitty/releases/tag/v0.0.41",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.bitty.run/releases/v0.0.39/bitty-x86_64-pc-windows-msvc.exe",
-            "hash": "fef9a9028f34be4f38791dae4235bf0d7273668090f0acb1ed2bf00cc7b7639c",
+            "url": "https://cdn.bitty.run/releases/v0.0.41/bitty-x86_64-pc-windows-msvc.exe",
+            "hash": "b479de898fdb71961557b19b9cace7b38e2c1108a56a9a5c99a9ff9b908018e4",
             "bin": [["bitty-x86_64-pc-windows-msvc.exe", "bitty"]],
             "shortcuts": [["bitty-x86_64-pc-windows-msvc.exe", "Bitty"]]
         },
         "arm64": {
-            "url": "https://cdn.bitty.run/releases/v0.0.39/bitty-aarch64-pc-windows-msvc.exe",
-            "hash": "41e1e047c86aa4af6c9e5afff8f9baa5539fc02eb0a9c65437d06713efa1ea2e",
+            "url": "https://cdn.bitty.run/releases/v0.0.41/bitty-aarch64-pc-windows-msvc.exe",
+            "hash": "f0caa99cd7ee80325409529bc09a4e9d90bfa78563652f35b4df060e53720cbe",
             "bin": [["bitty-aarch64-pc-windows-msvc.exe", "bitty"]],
             "shortcuts": [["bitty-aarch64-pc-windows-msvc.exe", "Bitty"]]
         }
