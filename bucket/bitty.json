@@ -1,21 +1,21 @@
 {
-    "version": "0.0.45",
+    "version": "0.0.46",
     "description": "Bitty pre-alpha terminal workspace minimal correct terminal",
     "homepage": "https://github.com/bitty-terminal/bitty",
     "license": "MIT OR Apache-2.0",
-    "notes": "Downloads use the R2-backed CDN (cdn.bitty.run). GitHub Releases fallback: https://github.com/bitty-terminal/bitty/releases/tag/v0.0.45",
+    "notes": "Downloads use the R2-backed CDN (cdn.bitty.run). GitHub Releases fallback: https://github.com/bitty-terminal/bitty/releases/tag/v0.0.46",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.bitty.run/releases/v0.0.45/bitty-x86_64-pc-windows-msvc.exe",
-            "hash": "66c257d5dce535cfb751dc6d617d29cda8407a0f7d0caa370e4073447848e36c",
-            "bin": [["bitty-x86_64-pc-windows-msvc.exe", "bitty"]],
-            "shortcuts": [["bitty-x86_64-pc-windows-msvc.exe", "Bitty"]]
+            "url": "https://cdn.bitty.run/releases/v0.0.46/bitty-0.0.46-windows-x86_64.zip",
+            "hash": "7f7e7ad9f2fa5567118a0fbe65d2bdf733b54872d183a34807bc82127665e1e3",
+            "bin": [["bitty.com", "bitty"]],
+            "shortcuts": [["bitty.exe", "Bitty"]]
         },
         "arm64": {
-            "url": "https://cdn.bitty.run/releases/v0.0.45/bitty-aarch64-pc-windows-msvc.exe",
-            "hash": "dec52444ebdfc5b367a44784048b4d04b3e347b197e827a658d4f734a8cbf291",
-            "bin": [["bitty-aarch64-pc-windows-msvc.exe", "bitty"]],
-            "shortcuts": [["bitty-aarch64-pc-windows-msvc.exe", "Bitty"]]
+            "url": "https://cdn.bitty.run/releases/v0.0.46/bitty-0.0.46-windows-aarch64.zip",
+            "hash": "e98544996cab2a31a8f8bae05386566896eaa9d7502532a1b497b8246aea61f6",
+            "bin": [["bitty.com", "bitty"]],
+            "shortcuts": [["bitty.exe", "Bitty"]]
         }
     },
     "checkver": {
@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn.bitty.run/releases/v$version/bitty-x86_64-pc-windows-msvc.exe"
+                "url": "https://cdn.bitty.run/releases/v$version/bitty-0.0.46-windows-x86_64.zip"
             },
             "arm64": {
-                "url": "https://cdn.bitty.run/releases/v$version/bitty-aarch64-pc-windows-msvc.exe"
+                "url": "https://cdn.bitty.run/releases/v$version/bitty-0.0.46-windows-aarch64.zip"
             }
         }
     }
